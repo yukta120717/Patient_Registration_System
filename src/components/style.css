@@ -1,0 +1,103 @@
+/* Center the form and title on the page */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #8fdba0, #46a270);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the form container */
+  form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    position: relative; /* Ensure relative positioning for absolute button */
+    text-align: center; /* Center align form contents */
+  }
+  
+  /* Style for each form input container */
+  .form-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start; /* Align items to the start of the container */
+  }
+  
+  /* Style for icons */
+  .input-icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Adjust as needed */
+  }
+  
+  .input-icon i {
+    color: #28a745;
+    font-size: 1.2em;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+    width: 200px; /* Adjust width as needed */
+    text-align: left; /* Ensure label text aligns to the left */
+  }
+  
+  /* Style for input fields */
+  input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Change border color on focus */
+  input:focus {
+    border-color: #50b367;
+    box-shadow: 0 0 5px rgba(5, 50, 15, 0.5);
+    outline: none;
+  }
+  
+  /* Style for the submit button */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    /* Different text properties for button */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color: #218838;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add a heading style */
+  h1 {
+    margin-bottom: 20px;
+    color: #092707;
+    text-align: center;
+  }
+  
